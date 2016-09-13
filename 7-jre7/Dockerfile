@@ -7,6 +7,7 @@ ENV JAVA_OPTS="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=500
 
 VOLUME /usr/local/tomcat/webapps
 VOLUME /usr/local/tomcat/webapps/ROOT
+VOLUME /opt
 
 EXPOSE 5005
 EXPOSE 9000
